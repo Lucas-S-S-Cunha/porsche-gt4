@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gravitas One", serif;
+  z-index: 1;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+  z-index: 2;
+}
+.wallpaper {
+  display: flex;
+  width: 100vw;
+  z-index: -10;
+  position: relative;
+}
+.mask {
+  visibility: visible;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 12%,
+    rgba(8, 5, 5, 0.443870736771271) 55%,
+    rgba(25, 15, 13, 0.9340668152026436) 100%
+  );
+  width: 300vw;
+  min-height: 90px;
+  z-index: 1;
+  top: 0;
+  position: absolute;
+}
+.close-button {
+  display: flex;
+  width: 46px;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  left: 5vw;
+  cursor: pointer;
+  transition: 0.5s;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+header {
+  z-index: 1;
+  top: 0;
+  justify-content: center;
+}
+.tittle {
+  font-size: 90px;
+  color: #ffffff;
+  position: absolute;
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  width: 50px;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.logo-porsche {
+  width: 100px;
+  top: 5vh;
+  right: 5vw;
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
+}
+.menu:hover {
+  width: 56px;
+}
+main {
+  height: 600px;
+}
+.tittle2 {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto 40px auto;
+  font-size: 46px;
+  color: #262626;
+}
+.porsche-name {
+  color: #000000;
+}
+.data {
+  color: #8e8eab;
+  margin-left: 35px;
+  flex-direction: column;
+}
+.logo-porsche2 {
+  width: 60px;
+  height: auto;
+  margin-left: 26vw;
+  margin-top: 2vh;
+}
+.formulario-fale-conosco {
+  background-color: #ffffff;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  top: 10%;
+  left: -300px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: left 1s ease-in-out;
+  width: 200px;
+  height: 700px;
+  z-index: 11;
+}
+.mascara-formulario {
+  z-index: -1;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  transition: visibility 1s ease-in-out;
+}
+.about {
+  width: 450px;
+  color: #3e3e3e;
+  display: block;
+  right: 0;
+  margin: 10px 50px 50px 0;
+  position: absolute;
+}
+.if-tittle {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  position: absolute;
+  top: auto;
+  font-size: 55px;
+  top: 150px;
+  position: sticky;
+  background: #ffffff;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 300px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+}
+.if-tittle-div {
+  width: 100vw;
+}
+.the-most-searched-Porsche-div,
+.production-time-div,
+.motor-especifications-div,
+.horse-power-div,
+.more-info-div {
+  display: flex;
+  width: 100vw;
+  height: 350px;
+  margin-top: 90px;
+  justify-content: center;
+}
+.the-most-searched-Porsche,
+.production-time,
+.motor-especifications,
+.horse-power,
+.more-info {
+  font-size: 30px;
+  position: sticky;
+  top: 340px;
+  height: 50px;
+}
+article {
+  margin-top: 150px;
+}
+.your-amazing-history,
+.about-the-mark,
+.about-creator-tittle {
+  margin: 240px 0 100px 57%;
+  color: #303037;
+  font-size: 30px;
+}
+.history,
+.paragraph-about-the-mark,
+.about-creator-paragraph {
+  font-size: 15px;
+  color: #8e8eab;
+  margin: 40px 6vw 0 10vw;
+}
+
+.img2-div,
+.img3-div {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img2,
+.a-sense-img {
+  display: flex;
+  margin-top: 60px;
+  width: 100vw;
+  z-index: -10;
+  position: relative;
+}
+.one-legacy,
+.a-sense {
+  position: absolute;
+  font-size: 90px;
+  color: #ffffff;
+
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9;
+}
+.about-the-mark {
+  margin-top: 150px;
+}
+.a-sense {
+  font-size: 120px;
+  margin-top: 20%;
+}
+.about-creator-tittle {
+  margin-top: 140px;
+}
+.img4 {
+  position: fixed, absolute;
+  z-index: 11;
+  width: 100vw;
+  height: auto;
+  margin-top: 50px;
+}
+.img5 {
+  position: fixed, absolute;
+  z-index: 12;
+  width: 100vw;
+  height: auto;
+  margin-top: -40px;
+}
+
+#button-acess img {
+  height: 23px;
+}
+#button-acess {
+  width: 200px;
+  background: #0d0d55;
+  height: 45px;
+  font-size: 20px;
+  color: #8e8eab;
+  border: none;
+  border-radius: 12px;
+  margin: 2vh 50px 0 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#button-acess:hover {
+  height: 50px;
+  background: #07072c;
+}
+
+#acess-div {
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#acess-tittle {
+  color: #303037;
+  font-size: 30px;
+  margin-left: 3vw;
+}
+#acess-sub-div {
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  width: 100vw;
+  height: 500px;
+  background: #262626;
+}
